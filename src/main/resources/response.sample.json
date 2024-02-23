@@ -1,0 +1,66 @@
+{
+  "header" : {
+    "user_id" : "122967",
+    "account_type" : "1",
+    "short_limit" : "4",
+    "long_limit" : "100",
+    "long_remaining" : 88,
+    "short_remaining" : 3,
+    "status" : 0,
+    "results_requested" : 1,
+    "index" : {
+      "5" : {
+        "status" : 0,
+        "parent_id" : 5,
+        "id" : 5,
+        "results" : 1
+      },
+      "51" : {
+        "status" : 0,
+        "parent_id" : 5,
+        "id" : 51,
+        "results" : 1
+      },
+      "52" : {
+        "status" : 0,
+        "parent_id" : 5,
+        "id" : 52,
+        "results" : 1
+      },
+      "53" : {
+        "status" : 0,
+        "parent_id" : 5,
+        "id" : 53,
+        "results" : 1
+      },
+      "6" : {
+        "status" : 0,
+        "parent_id" : 6,
+        "id" : 6,
+        "results" : 1
+      }
+    },
+    "search_depth" : "128",
+    "minimum_similarity" : 80,
+    "query_image_display" : "/userdata/NfA6JSfVL.png.png",
+    "query_image" : "NfA6JSfVL.png",
+    "results_returned" : 1
+  },
+  "results" : [ {
+    "header" : {
+      "similarity" : "27.19",
+      "thumbnail" : "https://img1.saucenao.com/res/pixiv/9722/manga/97222375_p2.jpg?auth=1rb08WFdC1ibYQu5aRGSTA&exp=1709064000",
+      "index_id" : 5,
+      "index_name" : "Index #5: Pixiv Images - 97222375_p2.jpg",
+      "dupes" : 0,
+      "hidden" : 0
+    },
+    "data" : {
+      "ext_urls" : [ "https://www.pixiv.net/member_illust.php?mode=medium&illust_id=97222375" ],
+      "title" : "Sui the Doctor",
+      "pixiv_id" : 97222375,
+      "member_name" : "Tani",
+      "member_id" : 60698204
+    }
+  } ]
+}
