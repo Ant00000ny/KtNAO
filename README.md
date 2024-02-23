@@ -15,7 +15,7 @@ fun main() {
     // request via image url
     val result = client.request(imageUrl = "http://saucenao.com/images/static/banner.gif")
     
-    // or send image directl
+    // or send image directly
     val result = client.request(imageBytes = Paths.get("image.png").readBytes())
 }
 
