@@ -1,6 +1,5 @@
 package com.isekaiofficial.ktnao
 
-import com.fasterxml.jackson.databind.JsonNode
 import com.fasterxml.jackson.module.kotlin.jacksonObjectMapper
 import okhttp3.OkHttpClient
 
@@ -11,10 +10,6 @@ internal val client = OkHttpClient
 internal const val API_URL = "https://saucenao.com/search.php"
 
 internal val objectMapper = jacksonObjectMapper()
-
-internal fun JsonNode.toPrettyString(): String {
-    return objectMapper.writerWithDefaultPrettyPrinter().writeValueAsString(this)
-}
 
 enum class SauceNaoDbEnum(val indexName: String) {
     INDEX_HMAGS("index_hmags"),
