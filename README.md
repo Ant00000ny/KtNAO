@@ -10,7 +10,7 @@ KtNAO is a SauceNAO API wrapper, for more api detail, plz refer to [SauceNAO API
 fun main() {
     val apiKey = "YOUR_API_KEY"
 
-    val client = SauceNAOClient(apiKey)
+    val client = SaucenaoClient(apiKey)
     
     // request via image url
     val result = client.request(imageUrl = "http://saucenao.com/images/static/banner.gif")
@@ -21,10 +21,10 @@ fun main() {
 
 ```
 
-The return value above is a list of SauceNaoResult.
+The return value above is a list of SaucenaoResult.
 
 ```text
-[SauceNaoResult(similarity=73.80, thumbnail=https://img1.saucenao.com/res/pixiv/9420/94203441_p0_master1200.jpg?auth=o3sEuCO6wQnpeY2X1JdRUg&exp=1709064000, urls=[https://www.pixiv.net/member_illust.php?mode=medium&illust_id=94203441], title=【宣伝】雨とカプチーノ～ビターカプチーノ～, memberName=まごつき, memberId=5472279)]
+[SaucenaoResult(similarity=73.80, thumbnail=https://img1.saucenao.com/res/pixiv/9420/94203441_p0_master1200.jpg?auth=o3sEuCO6wQnpeY2X1JdRUg&exp=1709064000, urls=[https://www.pixiv.net/member_illust.php?mode=medium&illust_id=94203441], title=【宣伝】雨とカプチーノ～ビターカプチーノ～, memberName=まごつき, memberId=5472279)]
 ```
 
 ## TODO

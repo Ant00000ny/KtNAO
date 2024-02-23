@@ -10,14 +10,14 @@ import okhttp3.MultipartBody
 import okhttp3.Request
 import okhttp3.RequestBody.Companion.toRequestBody
 
-class SauceNAOClient(private val apiKey: String) {
+class SaucenaoClient(private val apiKey: String) {
     fun request(
         imageUrl: String? = null,
         imageBytes: ByteArray? = null,
         dbIndex: DbIndex = DbIndex().enableAll(),
         numres: Int = 1,
         minsim: Int = 80,
-    ): List<SauceNaoResult> {
+    ): List<SaucenaoResult> {
 
         require(imageUrl != null || imageBytes != null) { "Either imageUrl or imageBytes must be provided" }
 
@@ -57,6 +57,6 @@ class SauceNAOClient(private val apiKey: String) {
             .string()
             .let { objectMapper.readTree(it) }
 
-        return SauceNaoResult.fromResponse(responseJsonNode)
+        return SaucenaoResult.fromResponse(responseJsonNode)
     }
 }

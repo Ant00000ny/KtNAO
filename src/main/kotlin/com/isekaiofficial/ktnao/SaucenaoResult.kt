@@ -22,7 +22,7 @@ import com.fasterxml.jackson.databind.JsonNode
  *     }
  *   }
  */
-data class SauceNaoResult(
+data class SaucenaoResult(
     val similarity: String,
     val thumbnail: String,
     @JsonProperty("ext_urls")
@@ -36,11 +36,11 @@ data class SauceNaoResult(
     val pixivId: String,
 ) {
     companion object {
-        internal fun fromResponse(responseJsonNode: JsonNode): List<SauceNaoResult> {
+        internal fun fromResponse(responseJsonNode: JsonNode): List<SaucenaoResult> {
             return responseJsonNode.at("/results")
                 .filter { !it.isMissingNode }
                 .map {
-                    SauceNaoResult(
+                    SaucenaoResult(
                         similarity = it.at("/header/similarity").asText(),
                         thumbnail = it.at("/header/thumbnail").asText(),
                         urls = it.at("/data/ext_urls").map(JsonNode::asText),

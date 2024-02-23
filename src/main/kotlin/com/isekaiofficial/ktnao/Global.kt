@@ -11,7 +11,7 @@ internal const val API_URL = "https://saucenao.com/search.php"
 
 internal val objectMapper = jacksonObjectMapper()
 
-enum class SauceNaoDbEnum(val indexName: String) {
+enum class SaucenaoDbEnum(val indexName: String) {
     INDEX_HMAGS("index_hmags"),
     INDEX_RESERVED1("index_reserved"),
     INDEX_HCG("index_hcg"),
@@ -52,12 +52,12 @@ enum class SauceNaoDbEnum(val indexName: String) {
 }
 
 class DbIndex {
-    private val indices = SauceNaoDbEnum
+    private val indices = SaucenaoDbEnum
         .entries
         .associateWith { false }
         .toMutableMap()
 
-    fun enable(vararg index: SauceNaoDbEnum): DbIndex {
+    fun enable(vararg index: SaucenaoDbEnum): DbIndex {
         index.forEach {
             indices[it] = true
         }
@@ -65,7 +65,7 @@ class DbIndex {
         return this
     }
 
-    fun disable(vararg index: SauceNaoDbEnum): DbIndex {
+    fun disable(vararg index: SaucenaoDbEnum): DbIndex {
         index.forEach {
             indices[it] = false
         }
