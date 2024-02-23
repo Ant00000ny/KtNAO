@@ -26,3 +26,7 @@ The return value above is a list of SauceNaoResult.
 ```text
 [SauceNaoResult(similarity=73.80, thumbnail=https://img1.saucenao.com/res/pixiv/9420/94203441_p0_master1200.jpg?auth=o3sEuCO6wQnpeY2X1JdRUg&exp=1709064000, urls=[https://www.pixiv.net/member_illust.php?mode=medium&illust_id=94203441], title=【宣伝】雨とカプチーノ～ビターカプチーノ～, memberName=まごつき, memberId=5472279)]
 ```
+
+## TODO
+
+- [ ] publish maven package
