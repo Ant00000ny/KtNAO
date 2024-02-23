@@ -32,6 +32,8 @@ data class SauceNaoResult(
     val memberName: String,
     @JsonProperty("member_id")
     val memberId: String,
+    @JsonProperty("pixiv_id")
+    val pixivId: String,
 ) {
     companion object {
         internal fun fromResponse(responseJsonNode: JsonNode): List<SauceNaoResult> {
@@ -45,6 +47,7 @@ data class SauceNaoResult(
                         title = it.at("/data/title").asText(),
                         memberName = it.at("/data/member_name").asText(),
                         memberId = it.at("/data/member_id").asText(),
+                        pixivId = it.at("/data/pixiv_id").asText()
                     )
                 }
         }
