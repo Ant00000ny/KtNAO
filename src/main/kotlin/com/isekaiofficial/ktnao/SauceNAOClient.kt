@@ -9,8 +9,6 @@ import okhttp3.HttpUrl.Companion.toHttpUrl
 import okhttp3.MultipartBody
 import okhttp3.Request
 import okhttp3.RequestBody.Companion.toRequestBody
-import java.nio.file.Paths
-import kotlin.io.path.readBytes
 
 class SauceNAOClient(private val apiKey: String) {
     fun request(
@@ -61,9 +59,4 @@ class SauceNAOClient(private val apiKey: String) {
 
         return SauceNaoResult.fromResponse(responseJsonNode)
     }
-}
-
-fun main() {
-    val client = SauceNAOClient("your-api-key")
-    val result = client.request(imageBytes = Paths.get("image.png").readBytes())
 }
