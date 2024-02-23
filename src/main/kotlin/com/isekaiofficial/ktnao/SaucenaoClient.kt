@@ -1,6 +1,6 @@
 package com.isekaiofficial.ktnao
 
-import com.isekaiofficial.ktnao.ApiParams.DB_MASK
+import com.isekaiofficial.ktnao.ApiParams.DB
 import com.isekaiofficial.ktnao.ApiParams.MIN_SIM
 import com.isekaiofficial.ktnao.ApiParams.NUMBER_OF_RESULTS
 import com.isekaiofficial.ktnao.ApiParams.OUTPUT_TYPE
@@ -14,11 +14,9 @@ class SaucenaoClient(private val apiKey: String) {
     fun request(
         imageUrl: String? = null,
         imageBytes: ByteArray? = null,
-        dbIndex: DbIndex = DbIndex().enableAll(),
         numres: Int = 1,
-        minsim: Int = 80,
+        minsim: Int = 52,
     ): List<SaucenaoResult> {
-
         require(imageUrl != null || imageBytes != null) { "Either imageUrl or imageBytes must be provided" }
 
         val isUrl = imageUrl != null
@@ -30,7 +28,7 @@ class SaucenaoClient(private val apiKey: String) {
             .addQueryParameter(OUTPUT_TYPE, ApiParams.OutputType.JSON.value)
             .addQueryParameter(NUMBER_OF_RESULTS, numres.toString())
             .addQueryParameter(MIN_SIM, minsim.toString())
-            .addQueryParameter(DB_MASK, dbIndex.getValue().toString())
+            .addQueryParameter(DB, "999")
             .apply { if (isUrl) addQueryParameter(URL, imageUrl) }
             .build()
 

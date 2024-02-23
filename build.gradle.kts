@@ -33,3 +33,8 @@ publishing {
         mavenLocal()
     }
 }
+
+java {
+    withJavadocJar()
+    withSourcesJar()
+}

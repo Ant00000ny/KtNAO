@@ -1,0 +1,296 @@
+{
+  "header" : {
+    "user_id" : "122967",
+    "account_type" : "1",
+    "short_limit" : "4",
+    "long_limit" : "100",
+    "long_remaining" : 65,
+    "short_remaining" : 3,
+    "status" : 0,
+    "results_requested" : 1,
+    "index" : {
+      "0" : {
+        "status" : 0,
+        "parent_id" : 0,
+        "id" : 0,
+        "results" : 1
+      },
+      "2" : {
+        "status" : 0,
+        "parent_id" : 2,
+        "id" : 2,
+        "results" : 1
+      },
+      "5" : {
+        "status" : 0,
+        "parent_id" : 5,
+        "id" : 5,
+        "results" : 1
+      },
+      "51" : {
+        "status" : 0,
+        "parent_id" : 5,
+        "id" : 51,
+        "results" : 1
+      },
+      "52" : {
+        "status" : 0,
+        "parent_id" : 5,
+        "id" : 52,
+        "results" : 1
+      },
+      "53" : {
+        "status" : 0,
+        "parent_id" : 5,
+        "id" : 53,
+        "results" : 1
+      },
+      "6" : {
+        "status" : 0,
+        "parent_id" : 6,
+        "id" : 6,
+        "results" : 1
+      },
+      "8" : {
+        "status" : 0,
+        "parent_id" : 8,
+        "id" : 8,
+        "results" : 1
+      },
+      "9" : {
+        "status" : 0,
+        "parent_id" : 9,
+        "id" : 9,
+        "results" : 8
+      },
+      "10" : {
+        "status" : 0,
+        "parent_id" : 10,
+        "id" : 10,
+        "results" : 1
+      },
+      "11" : {
+        "status" : 0,
+        "parent_id" : 11,
+        "id" : 11,
+        "results" : 1
+      },
+      "12" : {
+        "status" : 0,
+        "parent_id" : 9,
+        "id" : 12,
+        "results" : 8
+      },
+      "16" : {
+        "status" : 0,
+        "parent_id" : 16,
+        "id" : 16,
+        "results" : 1
+      },
+      "18" : {
+        "status" : 0,
+        "parent_id" : 18,
+        "id" : 18,
+        "results" : 1
+      },
+      "19" : {
+        "status" : 0,
+        "parent_id" : 19,
+        "id" : 19,
+        "results" : 1
+      },
+      "20" : {
+        "status" : 0,
+        "parent_id" : 20,
+        "id" : 20,
+        "results" : 1
+      },
+      "21" : {
+        "status" : 0,
+        "parent_id" : 21,
+        "id" : 21,
+        "results" : 1
+      },
+      "211" : {
+        "status" : 0,
+        "parent_id" : 21,
+        "id" : 211,
+        "results" : 1
+      },
+      "22" : {
+        "status" : 0,
+        "parent_id" : 22,
+        "id" : 22,
+        "results" : 1
+      },
+      "23" : {
+        "status" : 0,
+        "parent_id" : 23,
+        "id" : 23,
+        "results" : 1
+      },
+      "24" : {
+        "status" : 0,
+        "parent_id" : 24,
+        "id" : 24,
+        "results" : 1
+      },
+      "25" : {
+        "status" : 0,
+        "parent_id" : 9,
+        "id" : 25,
+        "results" : 8
+      },
+      "26" : {
+        "status" : 0,
+        "parent_id" : 9,
+        "id" : 26,
+        "results" : 8
+      },
+      "27" : {
+        "status" : 0,
+        "parent_id" : 9,
+        "id" : 27,
+        "results" : 8
+      },
+      "28" : {
+        "status" : 0,
+        "parent_id" : 9,
+        "id" : 28,
+        "results" : 8
+      },
+      "29" : {
+        "status" : 0,
+        "parent_id" : 9,
+        "id" : 29,
+        "results" : 8
+      },
+      "30" : {
+        "status" : 0,
+        "parent_id" : 9,
+        "id" : 30,
+        "results" : 8
+      },
+      "31" : {
+        "status" : 0,
+        "parent_id" : 31,
+        "id" : 31,
+        "results" : 1
+      },
+      "32" : {
+        "status" : 0,
+        "parent_id" : 32,
+        "id" : 32,
+        "results" : 1
+      },
+      "33" : {
+        "status" : 0,
+        "parent_id" : 33,
+        "id" : 33,
+        "results" : 1
+      },
+      "34" : {
+        "status" : 0,
+        "parent_id" : 34,
+        "id" : 34,
+        "results" : 1
+      },
+      "341" : {
+        "status" : 0,
+        "parent_id" : 341,
+        "id" : 341,
+        "results" : 1
+      },
+      "35" : {
+        "status" : 0,
+        "parent_id" : 35,
+        "id" : 35,
+        "results" : 1
+      },
+      "36" : {
+        "status" : 0,
+        "parent_id" : 36,
+        "id" : 36,
+        "results" : 1
+      },
+      "37" : {
+        "status" : 0,
+        "parent_id" : 37,
+        "id" : 37,
+        "results" : 1
+      },
+      "371" : {
+        "status" : 0,
+        "parent_id" : 371,
+        "id" : 371,
+        "results" : 1
+      },
+      "38" : {
+        "status" : 0,
+        "parent_id" : 38,
+        "id" : 38,
+        "results" : 1
+      },
+      "39" : {
+        "status" : 0,
+        "parent_id" : 39,
+        "id" : 39,
+        "results" : 1
+      },
+      "40" : {
+        "status" : 0,
+        "parent_id" : 40,
+        "id" : 40,
+        "results" : 1
+      },
+      "41" : {
+        "status" : 0,
+        "parent_id" : 41,
+        "id" : 41,
+        "results" : 1
+      },
+      "42" : {
+        "status" : 0,
+        "parent_id" : 42,
+        "id" : 42,
+        "results" : 1
+      },
+      "43" : {
+        "status" : 0,
+        "parent_id" : 43,
+        "id" : 43,
+        "results" : 1
+      },
+      "44" : {
+        "status" : 0,
+        "parent_id" : 44,
+        "id" : 44,
+        "results" : 1
+      }
+    },
+    "search_depth" : "128",
+    "minimum_similarity" : 46.48,
+    "query_image_display" : "/userdata/sVTyFv42l.png.png",
+    "query_image" : "sVTyFv42l.png",
+    "results_returned" : 1
+  },
+  "results" : [ {
+    "header" : {
+      "similarity" : "63.86",
+      "thumbnail" : "https://img3.saucenao.com/booru/1/9/1937d9e8d27dece1f52cfc06dbd23799_0.jpg?auth=6DFCkxsfSFM-Mek96XyRbQ&exp=1709064000",
+      "index_id" : 9,
+      "index_name" : "Index #9: Danbooru - 1937d9e8d27dece1f52cfc06dbd23799_0.jpg",
+      "dupes" : 1,
+      "hidden" : 0
+    },
+    "data" : {
+      "ext_urls" : [ "https://danbooru.donmai.us/post/show/7244999", "https://gelbooru.com/index.php?page=post&s=view&id=9657182" ],
+      "danbooru_id" : 7244999,
+      "gelbooru_id" : 9657182,
+      "creator" : "naga u",
+      "material" : "world flipper",
+      "characters" : "luluca (world flipper)",
+      "source" : "https://misskey.io/notes/9pz7gv4umbh10ex5"
+    }
+  } ]
+}
