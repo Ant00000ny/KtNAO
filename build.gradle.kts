@@ -11,8 +11,10 @@ repositories {
 }
 
 dependencies {
-    implementation("com.squareup.okhttp3:okhttp:5.0.0-alpha.12")
+    implementation("io.ktor:ktor-client-core:1.6.4")
+    implementation("io.ktor:ktor-client-cio:3.0.0-beta-1")
     implementation("com.fasterxml.jackson.module:jackson-module-kotlin:2.16.1")
+    implementation("io.ktor:ktor-client-cio-jvm:3.0.0-beta-1")
     testImplementation("org.jetbrains.kotlin:kotlin-test")
 }
 
