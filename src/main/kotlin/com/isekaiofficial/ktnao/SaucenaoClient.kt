@@ -14,7 +14,7 @@ import io.ktor.client.request.*
 import io.ktor.client.request.forms.*
 import io.ktor.http.*
 
-class SauceNaoClient111(private val apiKey: String) {
+class SaucenaoClient(private val apiKey: String) {
     suspend fun request(
         imageUrl: String? = null,
         imageBytes: ByteArray? = null,
