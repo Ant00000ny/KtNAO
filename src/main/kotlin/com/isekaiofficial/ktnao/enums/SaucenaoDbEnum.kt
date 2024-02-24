@@ -5,6 +5,9 @@ import com.isekaiofficial.ktnao.json.DrawrResult
 import com.isekaiofficial.ktnao.json.PixivResult
 import com.isekaiofficial.ktnao.json.common.SaucenaoResult
 
+/**
+ * todo impl more result classes
+ */
 enum class SaucenaoDbEnum(val index: Int, val indexName: String, val resultClass: Class<out SaucenaoResult>? = null) {
     INDEX_HMAGS(0, "index_hmags"),
 
