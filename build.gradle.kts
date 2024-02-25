@@ -19,8 +19,14 @@ dependencies {
 tasks.test {
     useJUnitPlatform()
 }
+
 kotlin {
     jvmToolchain(17)
+}
+
+java {
+    withJavadocJar()
+    withSourcesJar()
 }
 
 publishing {
@@ -32,9 +38,4 @@ publishing {
     repositories {
         mavenLocal()
     }
-}
-
-java {
-    withJavadocJar()
-    withSourcesJar()
 }
