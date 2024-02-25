@@ -10,7 +10,7 @@ KtNAO is a SauceNAO API wrapper, for more api detail, plz refer to [SauceNAO API
 fun main() {
     val apiKey = "YOUR_API_KEY"
 
-    val client = SaucenaoClient(apiKey)
+    val client = SaucenaoClient(apiKey = apiKey, db = SaucenaoDbEnum.ALL_DB)
     
     // request via image url
     val result = client.request(imageUrl = "http://saucenao.com/images/static/banner.gif")
@@ -18,8 +18,9 @@ fun main() {
     // or send image directly
     val result = client.request(imageBytes = Paths.get("image.png").readBytes())
 }
-
 ```
+
+See [TestSaucenaoClient.kt](src%2Ftest%2Fkotlin%2FTestSaucenaoClient.kt) for more example.
 
 The return value above is a list of SaucenaoResult.
 
