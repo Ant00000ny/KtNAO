@@ -29,6 +29,11 @@ class DbIndex {
         return this
     }
 
+    fun invert(): DbIndex {
+        indices.replaceAll { _, value -> !value }
+        return this
+    }
+
     fun getValue(): Long {
         return indices
             .values

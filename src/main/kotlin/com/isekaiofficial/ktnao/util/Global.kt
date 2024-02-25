@@ -5,7 +5,7 @@ import io.ktor.client.*
 import io.ktor.client.engine.cio.*
 
 internal val client = HttpClient(CIO) {
-    expectSuccess = true
+    // expectSuccess = true
 }
 
 internal const val API_URL = "https://saucenao.com/search.php"

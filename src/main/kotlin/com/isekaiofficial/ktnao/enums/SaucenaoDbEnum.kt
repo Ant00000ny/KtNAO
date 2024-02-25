@@ -2,6 +2,7 @@ package com.isekaiofficial.ktnao.enums
 
 import com.isekaiofficial.ktnao.json.DanbooruResult
 import com.isekaiofficial.ktnao.json.DrawrResult
+import com.isekaiofficial.ktnao.json.HAnimeResult
 import com.isekaiofficial.ktnao.json.PixivResult
 import com.isekaiofficial.ktnao.json.common.SaucenaoResult
 
@@ -33,7 +34,7 @@ enum class SaucenaoDbEnum(val index: Int, val indexName: String, val resultClass
     INDEX_2DMARKET(18, "index_2dmarket"),
     INDEX_MEDIBANG(19, "index_medibang"),
     INDEX_ANIME(20, "index_anime"),
-    INDEX_HANIME(21, "index_hanime"),
+    INDEX_HANIME(21, "index_hanime", HAnimeResult::class.java),
     INDEX_MOVIES(22, "index_movies"),
     INDEX_SHOWS(23, "index_shows"),
     INDEX_GELBOORU(24, "index_gelbooru"),
@@ -49,6 +50,7 @@ enum class SaucenaoDbEnum(val index: Int, val indexName: String, val resultClass
     INDEX_PAWOO(34, "index_pawoo"),
     INDEX_MADOKAMI(35, "index_madokami"),
     INDEX_MANGADEX(36, "index_mangadex"),
+    ALL_DB(999, "all")
     ;
 
     companion object {

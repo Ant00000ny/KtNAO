@@ -13,10 +13,14 @@ open class SaucenaoResult(
                 .at("/results")
 
             return resultsNode.map { resultNode ->
-                val dbIndex = SaucenaoDbEnum.fromIndex(resultsNode.at("/header/index_id").asInt())
+                val dbIndex = SaucenaoDbEnum.fromIndex(resultNode.at("/header/index_id").asInt())
                     ?: throw IllegalArgumentException("Invalid db index")
                 objectMapper.convertValue(resultNode, dbIndex.resultClass)
             }
         }
+    }
+
+    override fun toString(): String {
+        return "SaucenaoResult(header=$header, data=$data)"
     }
 }

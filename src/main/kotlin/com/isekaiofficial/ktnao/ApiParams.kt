@@ -1,6 +1,6 @@
 package com.isekaiofficial.ktnao
 
-internal object ApiParams {
+object ApiParams {
     const val OUTPUT_TYPE = "output_type"
 
     enum class OutputType(val value: String) {
@@ -32,12 +32,12 @@ internal object ApiParams {
     const val DEDUPLICATE = "dedupe"
 
     enum class Deduplicate(val value: String) {
-        NONE("0"),
+        SHOW_ALL("0"),
         /**
          * consolidate booru results and dedupe by item identifier
          */
         CONSOLIDATE_AND_DEDUPE("1"),
-        ALL("2"),
+        DEDUPE_ALL("2"),
     }
 
     /**
